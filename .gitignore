@@ -104,3 +104,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+notebooks/judicial_review_XGB_random_01.ipynb
+notebooks/judicial_review_LR_01.ipynb
+notebooks/judicial_review_LR_random_01.ipynb
+notebooks/judicial_review_RF_01.ipynb
+notebooks/judicial_review_RF_random_01.ipynb
+notebooks/judicial_review_XGB_01.ipynb
