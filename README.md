@@ -104,7 +104,7 @@ Ctrl+C quits the app.
 
 ### See installed packages
 ```
-cat Procfile
+cat Pipfile
 ```
 
 You'll see output like this:
