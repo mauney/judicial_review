@@ -29,17 +29,17 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Value Proposition
+            ## Will It Stand?
 
-            Emphasize how the app will benefit users. Don't emphasize the underlying technology.
+            United States Supreme Court decisions are difficult to predict, often confounding even close watchers of the court.
 
-            ✅ RUN is a running app that adapts to your fitness levels and designs personalized workouts to help you improve your running.
+            Nina, our computer model, will make these predicitions for us, using the limited information we provide it from previous decisions.
 
-            ❌ RUN is the only intelligent running app that uses sophisticated deep neural net machine learning to make your run smarter because we believe in ML driven workouts.
+            We will limit the cases under consideration to those in which the Supreme Court ruled on the constitutionality of federal law. The data is from Keith E. Whittington, The Judicial Review of Congress Database (May 2019) (available at [https://scholar.princeton.edu/kewhitt/judicial-review-congress-database](https://scholar.princeton.edu/kewhitt/judicial-review-congress-database)) 
 
             """
         ),
-        dcc.Link(dbc.Button('Call To Action', color='primary'), href='/predictions')
+        dcc.Link(dbc.Button('Predict a Case', color='primary'), href='/predictions')
     ],
     md=4,
 )

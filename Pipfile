@@ -4,6 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
 dash = "*"
@@ -12,6 +13,13 @@ gunicorn = "*"
 plotly = "*"
 jupyter = "*"
 pandas = "*"
+scikit-learn = "*"
+dash-daq = "*"
+numpy = "*"
+seaborn = "*"
+matplotlib = "*"
+eli5 = "*"
+category-encoders = "*"
 
 [requires]
 python_version = "3.7"
